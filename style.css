@@ -126,3 +126,8 @@ footer.site p{font-size:.92rem}
   nav.main a{padding:11px 12px;font-size:1rem;border-bottom:1px solid rgba(255,255,255,.08)}
   nav.main a:last-child{border-bottom:none}
 }
+
+/* footer social links */
+footer.site .social{display:flex;gap:8px;flex-wrap:wrap}
+footer.site .social a{display:inline-block;border:1.5px solid var(--gold);color:var(--gold);border-radius:999px;padding:5px 14px;font-weight:600;font-size:.88rem}
+footer.site .social a:hover{background:var(--gold);color:var(--navy-dark);text-decoration:none}
